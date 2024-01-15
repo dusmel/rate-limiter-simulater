@@ -77,7 +77,7 @@ function App() {
             placeholder="Enter simulation count"
             className="px-2 border-2"
           />
-           <span className=" text-slate-500">This determine how many requests to send per given time  ( the default time  is 500 milliseconds</span>
+           <span className=" text-slate-500">This determines how many requests to send per given time  ( the default time  is 500 milliseconds</span>
         </div>
         <div className="flex flex-col text-left gap-1 max-w-[25rem]">
           <label className=" text-slate-500" htmlFor="delayTime">Delay Time</label>
@@ -88,7 +88,7 @@ function App() {
             onChange={handleChange}
             className="px-2 border-2"
           />
-           <span className=" text-slate-500">This determine the rate at which you send requests ( ideal to test monthly and system wide rate limiting. use 2 or greater to test monthly</span>
+           <span className=" text-slate-500">This determines the rate at which you send requests ( ideal to test monthly and system wide rate limiting. use 2 or greater to test monthly</span>
         </div>
         <button type="submit" className=" bg-[#2961BC] text-white px-2 mt-[25px] py-1 self-start ">
           Simulate

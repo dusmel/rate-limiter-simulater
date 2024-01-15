@@ -1,7 +1,8 @@
 # Rate limiter simulator
 
-## Instalation
+## Installation
 
+**Manual**
 ```
 git clone git@github.com:dusmel/rate-limiter-simulator.git
 cd rate-limiter-simulator
@@ -9,8 +10,16 @@ pnpm install
 pnpm dev
 ```
 
-Default config
+**Using Docker**
+```bash
+docker build  -t rate-limiter-frontend 
+docker run -p 3001:3001 rate-limiter-frontend
+```
+💡 Make sure port 3001 is not being used.
 
+
+
+Default config
 
 ```
   timewindow: 10 seconds, max: 4 requests per client
